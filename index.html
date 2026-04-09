@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>給食サポート</title>
 
   <style>
@@ -22,10 +21,30 @@
       border-radius: 10px;
     }
 
+    h1 {
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
     button {
-      padding: 12px 16px;
+      width: 100%;
+      padding: 12px;
       font-size: 16px;
       margin-top: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      opacity: 0.9;
     }
   </style>
 </head>
@@ -33,9 +52,12 @@
 <body>
   <div class="container">
     <h1>給食サポートアプリ</h1>
-    <p>ここから作り直していきます</p>
+    <p>必要な情報を入力してください</p>
 
-    <button>テストボタン</button>
+    <input type="text" placeholder="名前を入力">
+    <input type="text" placeholder="内容を入力">
+
+    <button>登録する</button>
   </div>
 </body>
 </html>
